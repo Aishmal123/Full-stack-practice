@@ -54,23 +54,23 @@
 // console.log(filter3)
 // let filter4=students.find(students=>students.name==="Sara")
 // console.log(filter4)
-let users = [
-  { id: 1, name: "Ali", age: 22, city: "Lahore", active: true },
-  { id: 2, name: "Sara", age: 19, city: "Karachi", active: false },
-  { id: 3, name: "Ahmed", age: 25, city: "Lahore", active: true },
-  { id: 4, name: "Ayesha", age: 30, city: "Islamabad", active: true },
-  { id: 5, name: "Usman", age: 17, city: "Lahore", active: false }
-];
-let loggedIn=users.filter(users=>users.active===true)
-console.log(loggedIn)
+// let users = [
+//   { id: 1, name: "Ali", age: 22, city: "Lahore", active: true },
+//   { id: 2, name: "Sara", age: 19, city: "Karachi", active: false },
+//   { id: 3, name: "Ahmed", age: 25, city: "Lahore", active: true },
+//   { id: 4, name: "Ayesha", age: 30, city: "Islamabad", active: true },
+//   { id: 5, name: "Usman", age: 17, city: "Lahore", active: false }
+// ];
+// let loggedIn=users.filter(users=>users.active===true)
+// console.log(loggedIn)
 // 🔹 Task 2 (FILTER + CONDITION)
 
 // Get users who:
 
 // city = "Lahore"
 // AND age >= 20
-let correctUser=users.filter(users=>users.city==="Lahore" && users.age>=20)
-console.log(correctUser)
+// let correctUser=users.filter(users=>users.city==="Lahore" && users.age>=20)
+// console.log(correctUser)
 // Task 3 (MAP)
 
 // Convert active users into this format:
@@ -80,17 +80,23 @@ console.log(correctUser)
 // let arr6=activeUser.map(users=>`${user.name} from ${user.city}`)
 // console.log(arr6)
 
-let activeUser = users.filter(users => users.active === true);
+// let activeUser = users.filter(users => users.active === true);
 
-let arr6 = activeUser.map(users => `${users.name} from ${users.city}`);
+// let arr6 = activeUser.map(users => `${users.name} from ${users.city}`);
 
-console.log(arr6);
-let activeUser1 = users.filter(users => users.active === false);
-let activeUSers= activeUser1.map(users=>`${users.name} from ${users.city}`)
-console.log(activeUSers)
+// console.log(arr6);
+// let activeUser1 = users.filter(users => users.active === false);
+// let activeUSers= activeUser1.map(users=>`${users.name} from ${users.city}`)
+// console.log(activeUSers)
 
 // 🔹 Task 4 (FIND)
 
 // Find user with:
 
-// id = 3
+// id = 
+console.log(typeof typeof 1);
+function test() {
+  console.log(this);
+}
+
+test();
